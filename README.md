@@ -17,10 +17,10 @@ F1-Enthusiast/
 ├── Belgian GP Winner Prediction/
 │   ├── README.md
 │   ├── requirements.txt
-│   └── winner_prediction.ipynb
+│   └── BelgianGP.ipynb
 ├── Italian GP Winner Prediction/
 │   ├── README.md
-│   └── italianGP.ipynb
+│   └── ItalianGP.ipynb
 └── data-analysis/
     ├── README.md
     ├── requirements.txt
