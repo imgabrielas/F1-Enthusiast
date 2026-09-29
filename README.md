@@ -4,11 +4,11 @@ A collection of Formula 1 data projects built around the [FastF1](https://github
 
 ## Projects
 
-| Project | Description |
-| --- | --- |
-| [Belgian GP Winner Prediction](./Belgian%20GP%20Winner%20Prediction) | Machine learning models that predict the Belgian GP race winner from qualifying data. |
-| [Italian GP Winner Prediction](./Italian%20GP%20Winner%20Prediction) | Ongoing project using a Neural Network on historical Monza race data for binary (winner / not winner) and multi-class (top 5 grid places) classification. |
-| [data-analysis](./data-analysis) | Exploratory data analysis and interactive visualisations of the F1 season, with a race-weekend deep dive into Monaco 2026. |
+| Project | Description                                                                                                                                                                                                       |
+| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Belgian GP Winner Prediction](./Belgian%20GP%20Winner%20Prediction) | Machine learning models that predict the Belgian GP race winner from qualifying data. The project itself can be improved by creating more relevant features, adding more models, and defining the task more precisely. |
+| [Italian GP Winner Prediction](./Italian%20GP%20Winner%20Prediction) | Ongoing project using a Neural Network on historical Monza race data for binary (winner / not winner) and multi-class (top 5 grid places) classification.                                                         |
+| [data-analysis](./data-analysis) | Exploratory data analysis and interactive visualisations of the F1 season, with a race-weekend deep dive into Monaco 2026.                                                                                        |
 
 ## Repository Structure
 
