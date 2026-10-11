@@ -1,5 +1,6 @@
 cache_dir/
 cache/
+f1_cache/
 *.cache/data-analysis/monaco2026/cache/
 *.sqlite
 *.sqlite3
