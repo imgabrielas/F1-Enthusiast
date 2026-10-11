@@ -4,7 +4,7 @@ Exploratory data analysis of the 2026 F1 season using [FastF1](https://github.co
 
 ## Repository Structure
 
-* `F1_EDA.ipynb` — season-wide exploratory analysis (driver/constructor performance, points, podiums, DNFs)
+* `F1_General_Analysis.ipynb` — season-wide exploratory analysis (driver/constructor performance, points, podiums, DNFs)
 * `visualisations/` — PNG exports of the notebook's charts
 * `monaco2026/` — qualifying and race analysis for the Monaco GP weekend
 
@@ -18,7 +18,7 @@ Season-to-date constructors' standings; Mercedes leads well clear of Ferrari and
 
 Average grid vs. finishing position per driver — points below the diagonal are races won in the car, not on the grid.
 
-More charts are in `visualisations/`; interactive versions live in `F1_EDA.ipynb` (Plotly charts don't render on GitHub — open the notebook locally to view them).
+More charts are in `visualisations/`; interactive versions live in `F1_General_Analysis.ipynb` (Plotly charts don't render on GitHub — open the notebook locally to view them).
 
 ## Tech Stack
 
@@ -28,7 +28,7 @@ Python, FastF1, pandas, NumPy, Plotly, Matplotlib
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook F1_EDA.ipynb
+jupyter notebook F1_General_Analysis.ipynb
 ```
 
 FastF1 caches downloaded session data locally (`cache/`) to avoid re-fetching from the API on every run.
