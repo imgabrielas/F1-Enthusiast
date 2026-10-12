@@ -4,29 +4,24 @@ A collection of Formula 1 data projects built around the [FastF1](https://github
 
 ## Projects
 
-| Project | Description                                                                                                                                                                                                       |
-| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Belgian GP Winner Prediction](./Belgian%20GP%20Winner%20Prediction) | Machine learning models that predict the Belgian GP race winner from qualifying data. The project itself can be improved by creating more relevant features, adding more models, and defining the task more precisely. |
-| [Italian GP Winner Prediction](./Italian%20GP%20Winner%20Prediction) | Classifies each driver's Monza (Italian GP) finishing placement — Podium / Points / No Points — from qualifying data, trained on 2016-2025 and evaluated against the 2026 race.                                    |
-| [data-analysis](F1 Race and Drivers Analysis) | Exploratory data analysis and interactive visualisations of the F1 season, with a race-weekend deep dive into Monaco 2026.                                                                                        |
+| Notebook                                                                 | Race                                 | Description                                                                                                                                                                                                                                      |
+| ------------------------------------------------------------------------ | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`Round_10_BelgianGP.ipynb`](./Round_10_BelgianGP.ipynb)                 | Belgian GP (Round 10)                | Trains models on 2021-2026 qualifying and 2021-2025 race data to predict the Belgian GP result from qualifying performance.                                                                                                                      |
+| [`Round_13_ItalianGP.ipynb`](./Round_13_ItalianGP.ipynb)                 | Italian GP — Monza (Round 13)        | Gradient Boosting model trained on 2026 race lap/sector times plus qualifying and weather data, predicting each driver's average race pace, then compared against the actual 2026 result.                                                        |
+| [`Round_17_SingaporeGP.ipynb`](./Round_17_SingaporeGP.ipynb)             | Singapore GP — Marina Bay (Round 17) | Work in progress: winner prediction for the Sprint and Grand Prix sessions of the Singapore weekend.                                                                                                                                             |
+| [`F1 Race and Drivers Analysis`](./F1%20Race%20and%20Drivers%20Analysis) | 2026 season                          | Exploratory data analysis and visualisations of the season (driver/constructor performance, points, podiums, DNFs), with a dedicated notebook for the Monaco GP weekend. See its own [README](./F1%20Race%20and%20Drivers%20Analysis/README.md). |
 
 ## Repository Structure
 
 ```
 F1-Enthusiast/
-├── Belgian GP Winner Prediction/
-│   ├── README.md
-│   ├── requirements.txt
-│   └── BelgianGP.ipynb
-├── Italian GP Winner Prediction/
-│   ├── README.md
-│   └── ItalianGP.ipynb
-└── data-analysis/
+├── Round_10_BelgianGP.ipynb
+├── Round_13_ItalianGP.ipynb
+├── Round_17_SingaporeGP.ipynb
+└── F1 Race and Drivers Analysis/
     ├── README.md
     ├── requirements.txt
-    ├── F1_EDA.ipynb
-    ├── visualisations/
-    └── monaco2026/
-        ├── monaco26.ipynb
-        └── weekend_analysis.ipynb
+    ├── F1_General_Analysis.ipynb
+    ├── MonacoGP_Analysis.ipynb
+    └── visualisations/
 ```
